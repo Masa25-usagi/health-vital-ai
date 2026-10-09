@@ -1,0 +1,29 @@
+{
+  "name": "health-vital-ai",
+  "version": "0.1.0",
+  "description": "Smartwatch (Apple Watch & Fitbit) vital data analyzer and AI health advisor for daily attendance and study decisions",
+  "type": "module",
+  "main": "src/index.ts",
+  "bin": {
+    "health-ai": "src/cli.ts"
+  },
+  "scripts": {
+    "test": "node --test tests/*.test.ts",
+    "typecheck": "tsc --noEmit",
+    "build": "tsc --noEmit"
+  },
+  "keywords": [
+    "health",
+    "smartwatch",
+    "fitbit",
+    "apple-watch",
+    "ai-advisor",
+    "hermes"
+  ],
+  "license": "MIT",
+  "devDependencies": {
+    "@types/node": "^22.0.0",
+    "typescript": "^5.6.0"
+  },
+  "private": true
+}
